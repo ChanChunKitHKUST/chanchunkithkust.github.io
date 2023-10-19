@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am ChunKit Chan, a Ph.D. student from the CSE department at [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/zh-hant), supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/). 
+I am ChunKit Chan, a Ph.D. student from the [Computer Science and Engineering(CSE)](https://cse.hkust.edu.hk/) department at [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/zh-hant), supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/). Previously, I received an MPhil degree in CSE from HKUST in 2021-2023, also supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/) and a Master's degree in Big Data and Technology from HKUST in 2021.
 
-Research Interests 
+# Research Interests 
 * Natural Language Processing
 * Large Language Models
 * Theory of Mind
