@@ -55,6 +55,7 @@
 @inproceedings{chan-etal-2023-self,
     abbr={Oral-AACL},
     selected={true},
+    bibtex_show={true},
     title = "Self-Consistent Narrative Prompts on Abductive Natural Language Inference",
     author = "Chan, Chunkit  and
       Liu, Xin  and
@@ -79,36 +80,58 @@
     pages = "1040--1057",
 }
 
-@article{DBLP:journals/corr/abs-2305-12870,
-  abbr={Oral-EMNLP},
-  bibtex_show={true},
-  selected={true},
-  author       = {Yuxin Jiang and
-                  Chunkit Chan and
-                  Mingyang Chen and
-                  Wei Wang},
-  title        = {Lion: Adversarial Distillation of Closed-Source Large Language Model},
-  journal      = {CoRR},
-  volume       = {abs/2305.12870},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2305.12870},
-  doi          = {10.48550/arXiv.2305.12870},
-  eprinttype    = {arXiv},
-  eprint       = {2305.12870},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-12870.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{jiang-etal-2023-lion,
+    abbr={Oral-EMNLP},
+    bibtex_show={true},
+    selected={true},
+    title = "Lion: Adversarial Distillation of Proprietary Large Language Models",
+    author = "Jiang, Yuxin  and
+      Chan, Chunkit  and
+      Chen, Mingyang  and
+      Wang, Wei",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.189",
+    doi = "10.18653/v1/2023.emnlp-main.189",
+    pages = "3134--3154",
+    abstract = "The practice of transferring knowledge from a sophisticated, proprietary large language model (LLM) to a compact, open-source LLM has garnered considerable attention. Previous works have focused on a unidirectional knowledge distillation way by aligning the responses of the student model with those of the teacher model to a set of instructions. Nevertheless, they overlooked the possibility of incorporating any {``}feedback{''}{--}identifying challenging instructions where the student model{'}s performance falls short{--}to boost the student model{'}s proficiency iteratively. To this end, we propose a novel adversarial distillation framework for a more efficient knowledge transfer. Leveraging the versatile role adaptability of LLMs, we prompt the teacher model to identify {``}hard{''} instructions and generate new {``}hard{''} instructions for the student model, creating a three-stage adversarial loop of imitation, discrimination, and generation. By applying this adversarial framework, we successfully transfer knowledge from ChatGPT to a student model (named Lion), using a mere 70k training data. Our results show that Lion-13B not only achieves comparable open-ended generation capabilities to ChatGPT but surpasses conventional state-of-the-art (SOTA) instruction-tuned models like Vicuna-13B by 55.4{\%} in challenging zero-shot reasoning benchmarks such as BIG-Bench Hard (BBH) and 16.7{\%} on AGIEval.",
 }
 
-@article{jiayang2023storyanalogy,
+@inproceedings{jiayang-etal-2023-storyanalogy,
       abbr={Main-EMNLP},
       bibtex_show={true},
       selected={true},
-      title={StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding}, 
-      author={Cheng Jiayang and Lin Qiu and Tsz Ho Chan and Tianqing Fang and Weiqi Wang and Chunkit Chan and Dongyu Ru and Qipeng Guo and Hongming Zhang and Yangqiu Song and Yue Zhang and Zheng Zhang},
-      journal= {CoRR},
-      volume= {abs/2310.12874},
-      year={2023},
-      archivePrefix={arXiv},
+    title = "{S}tory{A}nalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding",
+    author = "Jiayang, Cheng  and
+      Qiu, Lin  and
+      Chan, Tsz  and
+      Fang, Tianqing  and
+      Wang, Weiqi  and
+      Chan, Chunkit  and
+      Ru, Dongyu  and
+      Guo, Qipeng  and
+      Zhang, Hongming  and
+      Song, Yangqiu  and
+      Zhang, Yue  and
+      Zhang, Zheng",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.706",
+    doi = "10.18653/v1/2023.emnlp-main.706",
+    pages = "11518--11537",
+    abstract = "Analogy-making between narratives is crucial for human reasoning. In this paper, we evaluate the ability to identify and generate analogies by constructing a first-of-its-kind large-scale story-level analogy corpus, StoryAnalogy, which contains 24K story pairs from diverse domains with human annotations on two similarities from the extended Structure-Mapping Theory. We design a set of tests on StoryAnalogy, presenting the first evaluation of story-level analogy identification and generation. Interestingly, we find that the analogy identification tasks are incredibly difficult not only for sentence embedding models but also for the recent large language models (LLMs) such as ChatGPT and LLaMa. ChatGPT, for example, only achieved around 30{\%} accuracy in multiple-choice questions (compared to over 85{\%} accuracy for humans). Furthermore, we observe that the data in StoryAnalogy can improve the quality of analogy generation in LLMs, where a fine-tuned FlanT5-xxl model achieves comparable performance to zero-shot ChatGPT.",
 }
 
 @article{li2023pbench,
