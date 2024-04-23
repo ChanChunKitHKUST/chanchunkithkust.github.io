@@ -30,11 +30,9 @@ I am ChunKit Chan, a Ph.D. student from the [Computer Science and Engineering(CS
 # Awards
 * Hong Kong PhD Fellowship (2023 - 2026)
 * HKUST RedBird PhD Scholarship (2023)
-* Research Travel Grant Award (2023/24)
 * ICMLC 2023 Best Student Paper Awards (2023)
 * Hong Kong Talent Development Scholarship for Msc Programs in the School of Engineering (2020-21 Fall, Winter, Spring)
 * Dean’s List for the School of Engineering (2019/20)
-* YM Volunteer Silver Award (2017)
 
 
 
