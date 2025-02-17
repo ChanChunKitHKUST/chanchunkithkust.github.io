@@ -19,7 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am ChunKit Chan, a Ph.D. student from the [Computer Science and Engineering(CSE)](https://cse.hkust.edu.hk/) department at [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/zh-hant), funded by the [HKPFS](https://fytgs.hkust.edu.hk/scholarships/hong-kong-phd-fellowship-scheme) award and supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/). Previously, I received an MPhil degree in CSE from HKUST in 2021-2023, also supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/) and a Master's degree in Big Data and Technology from HKUST in 2021.
+I am ChunKit Chan, a Ph.D. student from the [Computer Science and Engineering(CSE)](https://cse.hkust.edu.hk/) department at [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/zh-hant), funded by the [HKPFS](https://fytgs.hkust.edu.hk/scholarships/hong-kong-phd-fellowship-scheme) award and supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/). Previously, I received an MPhil degree in CSE from HKUST in 2021-2023, also supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/) and a Master's degree in Big Data and Technology from HKUST in 2021. From 2022 to 2024, I worked as a research intern at the NVIDIA AI Technology Center.
+
 
 # Research Interests 
 * Natural Language Processing
