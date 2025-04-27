@@ -11,17 +11,17 @@ profile:
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
 I am ChunKit Chan, a Ph.D. student from the [Computer Science and Engineering(CSE)](https://cse.hkust.edu.hk/) department at [the Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/zh-hant), funded by the [HKPFS](https://fytgs.hkust.edu.hk/scholarships/hong-kong-phd-fellowship-scheme) award and supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/). Previously, I received an MPhil degree in CSE from HKUST in 2021-2023, also supervised by [Prof. Yangqiu Song](https://cse.hkust.edu.hk/~yqsong/) and a Master's degree in Big Data and Technology from HKUST in 2021. From 2022 to 2024, I worked as a research intern at the NVIDIA AI Technology Center. Now, I work as an Applied Scientist Intern at Amazon in Palo Alto.
 
-##### Research Interests
+##### **Research Interests**
 
 ###### **Theory of Mind and Mental World Modeling in Large Language Models**
 
-Investigating how LLMs can develop understanding of others' mental states (Belief, Desire, and Intention), while constructing rich internal representations of subjective mental worlds.
+Investigating how LLMs can develop an understanding of others' mental states (Belief, Desire, and Intention), while constructing rich internal representations of subjective mental worlds.
 
 ###### **Emergent Reasoning Capabilities in LLMs Through Reinforcement Learning**
 
@@ -36,7 +36,7 @@ Designing collaborative AI systems where multiple agents can effectively model e
 Developing language model-powered agents on real-world complex tasks by modeling human intentions and mental states and assessing how Theory of Mind capabilities enhance agent/machine performance across diverse real-world scenarios.
 
 
-##### Awards
+##### **Awards**
 * Hong Kong PhD Fellowship (2023 - 2026)
 * EMNLP 2024 Outstanding Reviewers (2024)
 * HKUST RedBird PhD Scholarship (2023)
