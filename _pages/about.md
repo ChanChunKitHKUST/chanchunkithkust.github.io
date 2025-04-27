@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>University Center 101, </p>
-    <p>HKUST, </p>
-    <p>Clear Water Bay</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -24,18 +20,21 @@ I am ChunKit Chan, a Ph.D. student from the [Computer Science and Engineering(CS
 
 # Research Interests 
 
-* Theory of Mind and Mental World Modeling in Large Language Models
+* **Theory of Mind and Mental World Modeling in Large Language Models**
 
-Investigating how LLMs can develop and demonstrate understanding of others' mental states (Belief, Desire, and Intention), while constructing rich internal representations of subjective mental worlds. Creating novel evaluation frameworks to measure both ToM capabilities and mental world modeling in language models.
-* Emergent Reasoning Capabilities in LLMs Through Reinforcement Learning
+Investigating how LLMs can develop an understanding of others' mental states (Belief, Desire, and Intention), while constructing rich internal representations of subjective mental worlds.
+
+* **Emergent Reasoning Capabilities in LLMs Through Reinforcement Learning**
 
 Exploring how reinforcement learning techniques can enhance reasoning ability (e.g., ToM reasoning). Developing more effective reward mechanisms for training RL-based models.
-* Multi-Agent Systems with Theory of Mind and Shared Mental Worlds
 
-Designing collaborative AI systems where multiple agents can effectively model each other's mental state while developing shared mental representations to solve complex problems. Exploring emergent social behaviors in multi-agent systems with ToM capabilities.
-* LLM-Based Autonomous Agents and ToM for Real-World Applications
+* **Multi-Agent Systems with Theory of Mind and Shared Mental Worlds**
 
-Developing language model-powered agents that can autonomously plan, execute, and reflect on real-world complex tasks by modeling human intentions and mental states. Creating robust frameworks for assessing how Theory of Mind capabilities enhance agent/machine performance across diverse real-world scenarios.
+Designing collaborative AI systems where multiple agents can effectively model each other's mental state while developing shared mental representations to solve complex problems.
+
+* **LLM-Based Autonomous Agents and ToM for Real-World Applications**
+
+Developing language model-powered agents on real-world complex tasks by modeling human intentions and mental states and assessing how Theory of Mind capabilities enhance agent/machine performance across diverse real-world scenarios.
 
 # Awards
 * Hong Kong PhD Fellowship (2023 - 2026)
