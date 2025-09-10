@@ -38,7 +38,7 @@ Developing language model-powered agents on real-world complex tasks by modellin
 
 ##### **Academic Service**
 * Area Chair: ACL Rolling Review (2025 - Now), ACL (2025), EMNLP (2025)
-* Conference Reviewer: ACL Rolling Review (2022 - 2024), ACL (2022 - 2024), EMNLP (2022 - 2024), COLING (2024), COLM (2025)
+* Conference/Journal Reviewer: ACL Rolling Review (2022 - 2024), ACL (2022 - 2024), EMNLP (2022 - 2024), COLING (2024), COLM (2025), AAAI (2025), Artificial Intelligence Journal (2025)
 
 ##### **Awards**
 * Hong Kong PhD Fellowship (2023 - 2026)
