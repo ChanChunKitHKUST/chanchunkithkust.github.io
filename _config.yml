@@ -6,19 +6,18 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: ChunKit
 middle_name:
 last_name: Chan
-email: ckchancc@cse.ust.hk
+email: ckchancc@connect.ust.hk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  ChunKit Chan is a Ph.D. candidate at HKUST researching Large Language Models, Post-Training, Theory of Mind, and Mental World Models, with experience at NVIDIA and Amazon.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: ChunKit Chan, HKUST, Theory of Mind, large language models, AI agents, reinforcement learning  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: chanchunkit.github.io # the base hostname & protocol for your site
+url: https://chanchunkithkust.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -104,7 +103,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  For research collaborations and full-time opportunities, please get in touch by email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -154,9 +153,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -206,6 +203,20 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - reports
+  - REDESIGN.md
+  - _posts
+  - _projects
+  - _news
+  - blog
+  - news.html
+  - _pages/about_einstein.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - assets/pdf/example_pdf.pdf
 keep_files:
   - CNAME
   - .nojekyll
