@@ -17,14 +17,14 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.2.2'
+        ruby-version: '3.3'
         bundler-cache: true
     - name: Update _config.yml ⚙️
       uses: fjogeleit/yaml-update-action@v0.13.1
@@ -35,12 +35,24 @@ jobs:
         value: ${{ github.repository }}
     - name: Install and Build 🔧
       run: |
-        pip3 install --upgrade jupyter
-        npm install -g mermaid.cli
-        npm install -g purgecss
+        python3 -m venv /tmp/site-build-python
+        . /tmp/site-build-python/bin/activate
+        pip install jupyter
         export JEKYLL_ENV=production
-        bundle exec jekyll build --lsi
-        purgecss -c purgecss.config.js
+        bundle exec jekyll build
+        touch _site/.nojekyll
+    - name: Validate generated site
+      run: |
+        bundle exec ruby bin/tests/academic_content.rb
+        python3 bin/tests/academic_markup.py
+        node bin/tests/academic-search.test.cjs
+    - name: Save production build for review
+      uses: actions/upload-artifact@v4
+      with:
+        name: production-site
+        path: _site
+        include-hidden-files: true
+        retention-days: 7
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4

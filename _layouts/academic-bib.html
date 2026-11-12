@@ -1,0 +1,24 @@
+---
+---
+<article class="publication" id="{{ entry.key | escape }}" data-status="{{ entry.publication_status | default: 'Published' | escape }}">
+  <div class="publication-search-text">
+    {% assign venue = entry.abbr | default: entry.journal | default: 'Research' %}
+    {% assign entry_year = entry.year | append: '' %}
+    {% if venue contains 'Arxiv' or venue == 'CoRR' %}{% assign venue = 'Preprint' %}{% endif %}
+    <p class="publication-venue">{{ venue }}{% unless venue contains entry_year %} <span>· {{ entry.year }}</span>{% endunless %}<span class="status-badge{% if entry.publication_status == 'Under review' %} status-review{% endif %}">{{ entry.publication_status }}</span></p>
+    <h3>{{ entry.title }}</h3>
+    <p class="publication-authors">{% for author in entry.author_array %}{% unless forloop.first %}, {% endunless %}{% if author.last == 'Chan' and author.first == 'Chunkit' or author.last == 'Chan' and author.first == 'C.' %}<strong>{{ author.first }} {{ author.last }}</strong>{% else %}{{ author.first }} {{ author.last }}{% endif %}{% endfor %}</p>
+    {% if entry.author_note %}<p class="publication-author-note">{{ entry.author_note }}</p>{% endif %}
+    {% if entry.note %}<p class="publication-note">{{ entry.note }}</p>{% endif %}
+    {% if entry.booktitle %}<p class="publication-venue-full">{{ entry.booktitle }}</p>{% endif %}
+  </div>
+  <div class="publication-links">
+    {% if entry.url %}<a href="{{ entry.url }}" aria-label="Read paper: {{ entry.title | escape }}">Paper ↗</a>{% elsif entry.doi %}<a href="https://doi.org/{{ entry.doi }}">Paper ↗</a>{% elsif entry.eprint %}<a href="https://arxiv.org/abs/{{ entry.eprint }}">arXiv ↗</a>{% endif %}
+    {% if entry.pdf %}{% if entry.pdf contains '://' %}<a href="{{ entry.pdf }}">PDF ↗</a>{% else %}<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">PDF ↗</a>{% endif %}{% endif %}
+    {% if entry.code %}<a href="{{ entry.code }}">Code ↗</a>{% endif %}
+    {% if entry.website %}<a href="{{ entry.website }}">Project ↗</a>{% endif %}
+  </div>
+  {% unless entry.url or entry.doi or entry.eprint %}<p class="publication-author-note">Manuscript details listed in my CV; no public paper linked.</p>{% endunless %}
+  {% if entry.abstract %}<details><summary>Abstract</summary><p>{{ entry.abstract }}</p></details>{% endif %}
+  <details><summary>BibTeX</summary><pre><code>{{ entry.bibtex | escape }}</code></pre></details>
+</article>

@@ -1,0 +1,77 @@
+# Updated from ChanChunKit_CV_2026.pdf, received 2026-11-12.
+# Publication metadata is reconciled separately with Google Scholar and publishers.
+role: Ph.D. Candidate in Computer Science & Engineering
+affiliation: Hong Kong University of Science and Technology
+focus: Large Language Models, Theory of Mind, Mental World Models & Post-Training
+research:
+  - title: "Theory of Mind & Mental World Models"
+    description: "I study how language models infer beliefs, desires, and intentions. My goal is to develop Mental World Models that track these states over time, revise them with new evidence, and support socially informed reasoning."
+    papers:
+      - title: "XToM"
+        url: "https://aclanthology.org/2026.acl-long.805/"
+      - title: "MuSeToM"
+        url: "/publications/#chan2026musetom"
+        note: "Under Review"
+  - title: "Post-Training for Decision-Making"
+    description: "I investigate how mental-state understanding can improve decisions through Post-Training. My work combines belief–desire–intention supervision and reinforcement fine-tuning to predict customer behavior in e-commerce."
+    papers:
+      - title: "From Mind to Action"
+        url: "/publications/#chan2026mind-action"
+        note: "Under Review"
+  - title: "Agents"
+    description: "I study how agents infer others’ intentions and use that understanding to make decisions. My work examines Theory of Mind in negotiation and cooperative games, alongside my interest in mental-state-guided planning and tool use."
+    papers:
+      - title: "Guandan"
+        url: "https://doi.org/10.48550/arXiv.2408.02559"
+        note: "Co-First Author"
+      - title: "NegotiationToM"
+        url: "https://aclanthology.org/2024.findings-emnlp.244/"
+experience:
+  - organization: NVIDIA
+    role: Scientist Intern
+    dates: "Aug 2025 — Present"
+    summary: "Belief revision and mental-state-guided agents."
+    details:
+      - "Conducted research on MuSeToM, a benchmark evaluating belief revision from textual cues across six senses, revealing a tendency to over-update on salient but insufficient evidence."
+      - "Investigated belief–desire–intention modeling for LLM agents to guide decisions and actions in tool-use environments."
+  - organization: Amazon
+    role: Applied Scientist Intern
+    dates: "Feb 2025 — Aug 2025"
+    location: "Palo Alto, California"
+    summary: "Theory of Mind and reinforcement fine-tuning for customer behavior prediction."
+    details:
+      - "Developed a Theory-of-Mind benchmark capturing customers’ latent mental states behind observed actions across e-commerce tasks."
+      - "Used annotated belief–desire–intention states and reinforcement fine-tuning methods, including GRPO with Qwen3, to support customer behavior prediction."
+  - organization: NVIDIA
+    role: Scientist Intern
+    dates: "Mar 2022 — Jan 2025"
+    summary: "Prompt tuning for discourse, argument quality, and commonsense reasoning."
+    details:
+      - "Developed prompt-based path prediction for implicit discourse relation recognition (Findings of ACL 2023)."
+      - "Designed persona knowledge-aligned prompt tuning for audience-side argument quality assessment (ECAI 2024)."
+      - "Explored self-consistent prompt tuning for abductive commonsense reasoning (AACL 2023)."
+education:
+  - degree: "Ph.D., Computer Science and Engineering"
+    institution: "Hong Kong University of Science and Technology"
+    dates: "Sep 2023 — Present"
+    note: "Ph.D. candidate · Advisor: Prof. Yangqiu Song · Hong Kong PhD Fellowship"
+  - degree: "M.Phil., Computer Science and Engineering"
+    institution: "Hong Kong University of Science and Technology"
+    dates: "Sep 2021 — Aug 2023"
+    note: "Advisor: Prof. Yangqiu Song"
+  - degree: "M.Sc., Big Data Technology"
+    institution: "Hong Kong University of Science and Technology"
+    dates: "Sep 2020 — Jul 2021"
+honors:
+  - name: "Hong Kong PhD Fellowship"
+    year: "2023–2026"
+  - name: "ACL Outstanding Reviewers Award"
+    year: "2026"
+  - name: "EMNLP Outstanding Reviewers Award"
+    year: "2024"
+  - name: "HKUST RedBird PhD Scholarship"
+    year: "2023"
+  - name: "ICMLC Best Student Paper Award"
+    year: "2023"
+  - name: "Dean’s List, School of Engineering"
+    year: "2019"
