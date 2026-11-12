@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: chanchunkit.github.io/sitemap.xml
+Sitemap: https://chanchunkithkust.github.io/sitemap.xml
